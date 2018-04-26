@@ -1,0 +1,33 @@
+Install Maven:
+
+1. Download Maven from: https://maven.apache.org/download.cgi
+2. Download the apache-maven-3.x.y-bin.zip file and extract
+3. Set the path to the bin folder from maven in the PATH system variable
+4. Run mvn --version to check if everything installed correctly
+
+Install Git:
+
+1. Download Git from home page: https://git-scm.com/downloads
+2. Use the installer and click Next until the end :)
+3. Clone a project using git command: "git cline <https:// path>"
+
+Install IntelliJ:
+
+1. Download from IntelliJ website: https://www.jetbrains.com/idea/download/#section=windows
+2. Use the installer and click Next until the end
+3. Create a new Maven project in IntelliJ in order to use Maven...also the pom file should be edited with the appropriate dependencies
+4. This is an example of a depedency:
+
+ <groupId>org.seleniumhq.selenium</groupId>
+
+ <artifactId>selenium-chrome-driver</artifactId>
+
+ <version>3.11.0</version>
+
+
+
+
+Add Chrome Driver:
+
+1. Download the Chrome driver/ gekodriver from the SeleniumHQ pageand drag and drop it in IntelliJ over the project
+OR Add the Path to the folder where Chrome Driver is located in System Variables so all projects will use it from there from now on. :)
